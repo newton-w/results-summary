@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+      raindrops : "url('/src/images/background.jpg')"
+      }
+    },
     colors: {
       // primary
       lightRed: "hsl(0, 100%, 67%)",
