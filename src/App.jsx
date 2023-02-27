@@ -107,7 +107,7 @@ function App() {
           </div>
         </motion.div>
       <div className="flex fixed bottom-0 right-0 lg:right-20 lg:bottom-20 hover:scale-110 duration-300">
-        <a href="https://github.com/newton-w"  target="_blank" rel="noreferrer"><img src={github} alt="" /></a>
+        <a href="https://github.com/newton-w"  target="_blank" rel="noreferrer" aria-label="more projects"><img src={github} alt="github icon" /></a>
       </div>
       </div>
     </main>
